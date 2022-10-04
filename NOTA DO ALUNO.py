@@ -44,3 +44,4 @@ while n <= 5:
     if n >= 0:
         print("F perdeu o note")
         break
+        #nota: simplificar esse código
