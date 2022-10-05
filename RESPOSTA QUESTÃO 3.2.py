@@ -24,7 +24,7 @@ if d == enter:#                                                                 
             aa = input('O ano em que nasceu: ')#                                                    |
            # dados.append(aa)_______________________________________________________________________|
             if aa != 1:
-                print('Sua senha gerada foi:\n')
+                print('Sua senha gerada foi:')
                 print(mm + '@' + dn[::-1] + '%' + dn + '&' + mm[::-1] + aa)
 else:#________________________________________________________________________________Essa interação de início e saida é a gambiarra do dia
     exit
