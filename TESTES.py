@@ -34,5 +34,5 @@ pj transações.py
 funções referentes ao banco
 nota: funções que vão fazer o que há nos outros 
 
-uidentificação de arquivos"""
+identificação de arquivos"""
 
