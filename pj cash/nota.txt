@@ -13,7 +13,7 @@ saldo
 minhas transferencias.py
 informações das transferencias que a conta for fazendo
 
-meus imprestimos.py
+meus emprestimos.py
 numero conta
 numero cliente
 valor emporestimo 
@@ -35,4 +35,3 @@ funções referentes ao banco
 nota: funções que vão fazer o que há nos outros 
 
 uidentificação de arquivos"""
-

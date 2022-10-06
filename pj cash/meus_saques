@@ -1,0 +1,9 @@
+#numero da cliente 
+#numero da conta
+#valor sacado
+dados_cliente_saq = {'nc':input('Seu numero de cliente: '),
+    'nconta':int(input('Ok, agora seu número de conta: ')),}
+saq = int(input('Hora de abrir a carteira!!\nQuanto deseja sacar: '))
+if saq == saq:
+    print('Muito bem, valor de saque concluido, tenha um bom dia')
+#else saq < val_enp
