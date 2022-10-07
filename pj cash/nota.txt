@@ -35,3 +35,5 @@ funções referentes ao banco
 nota: funções que vão fazer o que há nos outros 
 
 identificação de arquivos"""
+
+[2.391456944486454]
