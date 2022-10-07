@@ -1,57 +1,50 @@
-"""pj cash -  banco - com snake case
-No banco dele ele quer ter 1 arquivo 
+import numbers
+from os import terminal_size
+from random import random
 
-cliente.py
-o arquivo recebe o cadastro dos clientes
-
-
-conta corrente.py
-numero cliente
-número da conta corrente
-saldo
-
-minhas transferencias.py
-informações das transferencias que a conta for fazendo
-
-meus imprestimos.py
-numero conta
-numero cliente
-valor emporestimo 
-data emprestimo
-
-
-meusdepositos.py
-numero cliemnte
-numero conta conta
-valor
-
-meus saques.py
-numero da cliente 
-numero da conta
-valor sacado
-
-pj transações.py
-funções referentes ao banco
-nota: funções que vão fazer o que há nos outros 
-
-uidentificação de arquivos"""
 
 sim = 1
 não = 2
-dados = int(input('Bom dia\n quer fazer um cadastro?\n1 para SIM\n    OU \n2 para NÃO\n'))
+tres = 3
+quatro = 4
+cinco = 5
+seis = 6
+cc = True
+cc = ""
+dados = int(input('Quer fazer um cadastro?\n1 para SIM\n    OU \n2 para NÃO\n'))
 if dados == 1:
-    dados_confirmados = {'nome':input('Seu nome: '),
-    'numero':int(input('Seu número: ')),
-    'email':input('Seu E-mail: '),
-    'CPF':int(input('Seu CPF: '))}
-
-
-
-
-
-
-
-
+    dados_nome = {'nome':input('Seu nome: ')}
+if dados == 1:
+    dados_numero = {'numero':int(input('Seu número de telefone: '))}
+if dados == 1:
+    dados_email = {'email':input('Seu E-mail: ')}
+if dados == 1:
+    dados_cpf = {'cpf':int(input('Seu CPF: '))}
+    cc = input('Ok, cadastro concluido\nPressione ENTER para continuar..')
+    if cc == "":
+        print('Esse é o seu número de cliente\nLembrese de anotar e guardá-lo')
+        import random
+        total_de_listas = 1
+        caractere_extra = 9
+        numero_cliente = [caractere_extra*random.random() for total_de_listas in range(total_de_listas)]
+        print (numero_cliente[::-1])
+        nca = {'ncarmazenado':numero_cliente}#___nota:é aqui que o numero fica armazenado
+if dados == 1:
+    menu = int(input('Deseja ver nosso menu de opções:\n1 para SIM\n    OU \n2 para NÃO\n'))
+    if menu == 1:
+        submenu = input('''
+        1 P/CONTA CORRENTE
+        2 P/DEPÓSITOS
+        3 P/EMPRÉSTIMOS
+        4 P/SAQUES
+        5 P/TRANSFERÊNCIAS
+        6 P/ SAIR\n''')
+        if submenu == 6:
+            exit
+        if menu == 2:
+            exit
+    if dados == 2:
+        exit
 
 
 
