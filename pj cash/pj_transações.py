@@ -14,3 +14,4 @@ if inicio == um:
         
 if inicio == dois:
     exit
+#teste
