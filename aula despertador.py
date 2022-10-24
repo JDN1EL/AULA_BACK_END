@@ -1,4 +1,4 @@
-"""from datetime import datetime
+from datetime import datetime
 
 hora_atual = datetime.now()
 h = hora_atual.strftime("%H")
@@ -22,8 +22,8 @@ cadastro = {
     'enderco': 'Rua 01',
     }
 
-print(cadastro.items())"""
+print(cadastro.items())
 
-lista = [1,2,3,4,5,6,7,8,9,9]
+'''lista = [1,2,3,4,5,6,7,8,9,9]
 nova = [x*x for x in lista]
-print(nova)
+print(nova)'''

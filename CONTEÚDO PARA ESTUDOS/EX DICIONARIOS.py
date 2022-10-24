@@ -1,8 +1,11 @@
+from random import randrange
+import random
 tabela = {
-    'manhã':'bom dia',
+    1:'bom dia',
     #_____   #______
        #|________|__________________________MANHÃ GANHA O BOM DIA COMO REGISTRO
-    'tarde':'boa tarde',
-    'noite':'boa noite'}
-print(tabela ['noite'],tabela ['tarde'])
+    2:'boa tarde',
+    3:'boa noite'}
+p = random.randrange(1,4)
+print(tabela[p])
 #|______________________|_____________________FAZ ASSIM QUANDO CHAMA ALGUÉM DO DICIONÁRIO
