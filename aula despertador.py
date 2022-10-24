@@ -24,3 +24,6 @@ cadastro = {
 
 print(cadastro.items())"""
 
+lista = [1,2,3,4,5,6,7,8,9,9]
+nova = [x*x for x in lista]
+print(nova)
